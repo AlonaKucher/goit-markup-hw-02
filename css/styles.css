@@ -87,6 +87,8 @@ line-height: 1.2;
     text-transform: uppercase;
 }
 .hero button{
+    font-family: inherit;
+    cursor: pointer;
     color: var(--hero-text-color);
     background-color: #2196F3;
     font-weight: 700;
@@ -101,6 +103,18 @@ line-height: 1.2;
 .section{
     background-color:#E5E5E5;
 }
+.our-adventages{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .adventages h3 {
     color:var(--title-text-color);
     font-weight: 700;
@@ -109,7 +123,6 @@ line-height: 1.2;
     text-transform: uppercase
 }
 .adventages p {
-    font-weight: 400;
      font-size: 14px;
     line-height:1.7;
 }
@@ -134,7 +147,6 @@ font-size: 16px;
 line-height:1.9;
 }
 .team p{
-    font-weight: 400;
     font-size: 16px;
     line-height:1.9;
 }
@@ -143,14 +155,12 @@ line-height:1.9;
     color: var(--hero-text-color);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
 .address .link{
    color: var(--adrress-text-color);
    font-style: normal;
-   font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -174,8 +184,21 @@ line-height:1.9;
 .portfolio{
     background-color:#F5F5F5;
 }
-
+.portfolio h1{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .portfolio-nav button {
+    font-family: inherit;
+    cursor:pointer;
     background-color:#F5F4FA;
     color:var(--title-text-color);
     font-weight: 500;
@@ -203,7 +226,6 @@ line-height:1.9;
         color: #212121;
 }
 .portfolio-works p{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
