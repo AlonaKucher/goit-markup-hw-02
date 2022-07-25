@@ -9,9 +9,10 @@
 /* Site header */
 body{
     color:var(--body-text-color);
-    background:#2F303A;
+    background:#FFFFFF;
     font-family: Roboto,sans-serif ;
     letter-spacing:0.03em;
+    font-size: 14px;
 }
 .list{
     list-style: none;
@@ -38,7 +39,6 @@ line-height: 1.2;
 }
 .nav a{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
@@ -68,7 +68,6 @@ line-height: 1.2;
     color: var(--body-text-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
@@ -77,6 +76,9 @@ line-height: 1.2;
     color:var(--accent-text-color);
   }
   /* Hero */
+.hero{
+    background-color: #2F303A;
+}
 .hero h1{
     color: var(--hero-text-color);
     font-weight: 900;
@@ -101,9 +103,9 @@ line-height: 1.2;
 }
   /* Our advantages */
 .section{
-    background-color:#E5E5E5;
+    background-color:#F5F5F5;
 }
-.our-adventages{
+.adventages{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -115,22 +117,19 @@ line-height: 1.2;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.adventages h3 {
-    color:var(--title-text-color);
-    font-weight: 700;
+.adventages-title{
     font-size: 14px;
+    color:var(--title-text-color);
     line-height: 1.2;
     text-transform: uppercase
 }
-.adventages p {
-     font-size: 14px;
+.adventages-text{
     line-height:1.7;
 }
 /* What we do */
 
 .title{
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height:1.7;
     text-align: center;
@@ -140,28 +139,29 @@ line-height: 1.2;
 .our-team{
     background-color: #F5F4FA;
 }
-.team h3{
+.team-name{
 color:var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height:1.9;
 }
-.team p{
+.team-position{
     font-size: 16px;
     line-height:1.9;
 }
 /* Footer */
+.footer{
+    background-color: #2F303A;
+}
 .location-link{
     color: var(--hero-text-color);
     text-decoration: none;
     font-style: normal;
-    font-size: 14px;
     line-height: 1.7;
 }
 .address .link{
    color: var(--adrress-text-color);
    font-style: normal;
-    font-size: 14px;
     line-height: 1.7;
 }
 .link:hover,
@@ -196,7 +196,7 @@ line-height:1.9;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.portfolio-nav button {
+.buttons {
     font-family: inherit;
     cursor:pointer;
     background-color:#F5F4FA;
@@ -207,10 +207,15 @@ line-height:1.9;
     text-align: center;
     border-radius: 4px  
 }
-.portfolio-nav button:hover,
-.portfolio-nav button:focus{
+
+.buttons:hover,
+.buttons:focus{
     background-color: #2196F3;
     color: #FFFFFF;
+}
+.start{
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 .portfolio-works li{
     background-color: #FFFFFF;
@@ -228,7 +233,6 @@ line-height:1.9;
 .portfolio-works p{
     font-size: 16px;
     line-height: 1.8;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
